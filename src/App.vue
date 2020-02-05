@@ -37,11 +37,24 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
 img {
   max-width: 100%;
 }
 
 #main {
   width: 100%;
+  background: lightgrey;
 }
 </style>
