@@ -3,8 +3,11 @@
     <section class="photo">
       <img :src="src" :alt="name" />
     </section>
-    <h1>Patient {{name}}</h1>
-    <h2>Disease: {{disease}}</h2>
+    <section>
+      <h1>Patient: {{firstName}}</h1>
+      <h2>{{lastName}}</h2>
+      <h3>Disease: {{disease}}</h3>
+    </section>
   </article>
 </template>
 
@@ -30,3 +33,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.patient-item {
+  display: grid;
+}
+</style>

@@ -3,7 +3,8 @@
     <PatientItem
       v-for="patient in patients"
       :key="patient.name"
-      :name="patient.name"
+      :firstName="patient.firstName"
+      :lastName="patient.lastName"
       :disease="patient.disease"
       :src="patient.img"
     ></PatientItem>
